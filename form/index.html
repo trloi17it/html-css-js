@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form">
+      <form action="">
+        <div class="form__header">Đăng nhập</div>
+        <!-- user name -->
+        <div class="form__input">
+          <input
+            id="input-user"
+            class="form__input-user"
+            type="text"
+            placeholder="User Name"
+          />
+          <small class=" "></small>
+          <span class="form__input-focus"></span>
+          <span class="form__input-error "></span>
+        </div>
+        <!-- Email -->
+        <div class="form__input">
+          <input
+            id="input-email"
+            class="form__input-password"
+            type="email"
+            placeholder="EX: user@gmail.com"
+          />
+          <small class=""></small>
+          <span class="form__input-focus"></span>
+          <span class="form__input-error "></span>
+        </div>
+        <!-- Pass -->
+        <div class="form__input">
+          <input
+            id="input-pass"
+            class="form__input-comfirm"
+            type="password"
+            placeholder="Password"
+          />
+          <small class=""></small>
+          <span class="form__input-focus"></span>
+          <span class="form__input-error "></span>
+        </div>
+        <!-- cormfirmPass -->
+        <div class="form__input">
+          <input
+            id="input-comfirm"
+            class="form__input-note"
+            type="password"
+            placeholder="Comfirm Password"
+          />
+          <small class=""></small>
+          <span class="form__input-focus"></span>
+          <span class="form__input-error "></span>
+        </div>
+        <!-- buttom -->
+        <div class="form__buttom">
+          <button type="submit" id="btn-click" class="btn-login">Đăng nhập</button>
+        </div>
+        <!-- if -->
+        <div class="form__if">
+          <p>Nếu bạn không có tài khoản</p>
+          <a href="#">Đăng kí</a>
+        </div>
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

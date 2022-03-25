@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body class="h-screen bg-gradient-to-br from-violet-600 to-purple-700">
+    <!-- btn -->
+    <div class="flex justify-center relative top-1/2">
+      <button id="btnclick"
+        class="border-2 shadow-amber-200 shadow px-3 py-2 rounded bg-transparent text-violet-400 font-bold border-violet-500 hover:border-violet-700 hover:text-violet-200 hover:bg-gradient-to-r to-pink-400 from-violet-600 transition-opacity ease-in"
+      >
+        Click me!
+      </button>
+    </div>
+    <!-- modal -->
+    <div id="modal"
+      class="hidden animate-pulse w-full h-full fixed top-0 bg-opacity-60 bg-slate-600 flex justify-center"
+    >
+      <div class="w-96 bg-slate-200 rounded-md absolute top-11">
+        <!-- header -->
+        <div class="justify-between flex rounded-t-md px-3 py-3 bg-red-400">
+          <p class="text-xl text-white font-semibold">Chú ý!</p>
+          <i id="closeicon"
+            class="text-xl text-white font-semibold hover:cursor-pointer transition-all hover:font-bold uil uil-multiply"
+          ></i>
+        </div>
+        <!-- content -->
+        <div class="px-3">
+          <h1 class="text-red-500 font-semibold text-2xl mb-2">Thông báo</h1>
+          <span class="font-normal"
+            >Đây là nội dung chú ý Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Neque, eos ipsam. Facilis, velit officiis.
+            Voluptates odio maiores tempore illo eligendi, debitis perferendis
+            ullam consequatur eius animi, quibusdam placeat! Repudiandae,
+            unde.</span
+          >
+        </div>
+        <!-- submic -->
+        <div class="px-3 py-3 text-right text-white">
+          <button id="close"
+            class="bg-red-400 px-3 py-1 rounded-md hover:bg-red-500 font-medium"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

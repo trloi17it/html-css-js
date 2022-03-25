@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <title>Productcart</title>
+  </head>
+  <body
+    class="h-screen bg-gradient-to-l from-pink-600 to-purple-400 box-border"
+  >
+    <!-- product card -->
+    <div
+      class="relative bg-gray-900 w-60 h-80 rounded-xl shadow-lg shadow-gray-700 mt-36 m-auto transition-all hover:cursor-pointer"
+    >
+      <!-- header -->
+      <div class="flex justify-between mx-4 pt-4 text-white text-2xl">
+        <i class="uil uil-heart"></i>
+        <i class="uil uil-shopping-cart-alt"></i>
+      </div>
+      <!-- img -->
+      <div class="w-10/12 absolute top-6 left-2">
+        <img 
+          class="w-full h-full object-cover hover:-rotate-12 transition-all hover:-translate-y-5 ease-in"
+          src="../Nike Zoom KD 12.png"
+          alt="nice"
+        />
+      </div>
+      <!-- title -->
+      <div class="text-white text-left text-xl font-semibold absolute top-40 left-4 ">
+        <p class="text-green-600 hover:translate-x-6">Giày mẫu mới</p>
+        <!-- price -->
+        <span>1.000.000 Đ</span>
+        <!-- decs -->
+        <div class="text-white flex items-center">
+          <span>Size:</span>
+          <p class="flex items-center">
+            <span class="bg-gray-300 m-0 mx-1 px-1 text-black rounded">6</span>
+            <span class="bg-gray-300 m-0 mx-2 px-1 text-black rounded">2</span>
+            <span class="bg-gray-300 m-0 mx-1 px-1 text-black rounded">4</span>
+            <span class="bg-gray-300 m-0 mx-2 px-1 text-black rounded">9</span>
+          </p>
+        </div>
+        <!-- color -->
+        <div class="flex items-center">
+          <span>Color:</span>
+          <span class="bg-blue-600 w-4 h-4 mx-2 my-1 rounded-full"></span>
+          <span class="bg-red-600 w-4 h-4 mx-2 my-1 rounded-full"></span>
+          <span class="bg-green-600 w-4 h-4 mx-2 my-1 rounded-full"></span>
+        </div>
+        <!-- button -->
+        <div class="mt-2 text-sm">
+          <div class="w-full flex justify-between">
+            <button class="bg-green-400 rounded-lg px-1 py-1 hover:bg-green-700 hover:cursor-pointer transition-all hover:text-gray-300">Buy now</button>
+          <button class="bg-green-400 rounded-lg px-1 py-1 hover:bg-green-700 hover:cursor-pointer transition-all hover:text-gray-300">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!--  <body
+    class="h-screen box-border m-0 p-0 bg-gradient-to-r from-purple-500 to-blue-300"
+  >
+    <section>
+      <div
+        class="h-80 w-64 bg-purple-700 m-auto mt-10 rounded-2xl shadow-lg shadow-purple-600 relative p-3 justify-between"
+      >
+        <i
+          class="text-white font-semibold text-2xl uil uil-shopping-cart-alt"
+        ></i>
+        <i class="text-white font-semibold text-2xl uil uil-heart"></i>
+      </div>
+    </section>
+  </body> -->
+</html>
